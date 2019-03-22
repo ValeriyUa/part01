@@ -1,0 +1,20 @@
+body *{ 
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+  text-align: center;
+  background-color: #333333;
+}
+h1, h2, h3, h4{
+  margin-bottom: 5px;
+  color: #fff;
+}
+p{
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #d1d1d1;
+}
+p > spen {
+  color: red;
+}
