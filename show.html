@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta name="description" content="Киномонстр портал о кино">
+  <meta name="keywords" content="фильмы,фильмы онлайн">
+  <link rel="stylesheet" href="assets/css/stylee.css">
+</head>
+<body>
+  <div class="main">
+
+    <div class="header">
+      <div class="logo">
+        <div class="logo_text">
+          <h1><a href="#">КиноМонстр</a></h1>
+          <h2>Кино наша страсть</h2>
+
+        </div>
+      </div>
+      <div class="menubar">
+        <ul class="menu">
+          <li class="selected"><a href="#">Главная</a></li>
+          <li><a href="#">Фильмы</a></li>
+          <li><a href="#">Сериалы</a></li>
+          <li><a href="#">Рейтинг фильмов</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="site_content">
+
+      <div class="sidebar_container">
+
+        <div class="sidebar">
+          <h2>Поиск</h2>
+          <form method="POST" action="#" id="search-form">
+            <input type="search" name="search_field" placeholder="ваш запрос"/>
+            <input type="submit" class="btn" value="найти"/>
+          </form>
+
+        </div>
+
+        <div class="sidebar">
+          <h2>Вход</h2>
+          <form method="POST" action="#"id="login">
+
+              <input type="text" name="login_field" placeholder="логин"/>
+              <input type="password" name="password_field" placeholder="пароль"/>
+              <input type="submit" class="btn" value="вход"/>
+              <div class="lables_passreg_text">
+                <span><a href="#">забыли пароль?</a></span> | <span><a href="#">регистрация</a></span>
+              </div>
+          </form>
+        </div>
+
+        <div class="sidebar">
+          <h2>Новости</h2>
+          <span>31.02.2018</span>
+          <p>Мы запустили расширеный поиск</p>
+          <a href="#">читать </a>
+        </div>
+
+        <div class="sidebar">
+          <h2>Рейтинг фильмов</h2>
+          <ul>
+            <li><a href="#">Интерстелар</a><span class="rating_sidebar">2.13</span></li>
+            <li><a href="#">Матрица</a><span class="rating_sidebar">8.17</span></li>
+            <li><a href="#">Безумный макс</a><span class="rating_sidebar">10.00</span></li>
+            <li><a href="#">Облачный атлас</a><span class="rating_sidebar">9.8</span></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="content">
+        <h1>Интерстеллар</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Sxrk75UcwZI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="info_film_page">
+
+          <span class="label">рейтинг: </span><span class="value">8.1/10</span>
+          <span class="label">год: </span><span class="value"> 2014 </span>
+          <span class="label">режисер </span><span class="value"> Кристофер Нолан</span>
+        </div>
+
+        <hr>
+
+        <h2>Описание Интерстеллар</h2>
+        <div class="description_film">
+          <img src="assets/img/inter.png">
+          Ресурсы Земли исчерпываются, и человечество стоит на грани исчезновения.
+           Для того чтобы спасти людей, группе секретных исследователей предстоит составить план эвакуации 
+           населения на другую планету, «червоточину» к которой удалось найти на орбите Сатурна.
+           Прежде чем воплотить в жизнь операцию «Лазарь», сотрудникам НАСА нужно обследовать проект, и 
+           сначала совершить тайную экспедицию на неизведанную планету. Покинув свои семьи, работники не знают, 
+           смогут ли они возвратиться на нашу галактику и оградить человечество от неминуемой гибели…
+
+        </div>
+
+        <hr>
+
+        <h2>Отзывы об Интерстеллар</h2>
+
+        <div class="reviews">
+
+          <div class="review_name">
+            Сергей
+          </div>
+          <div class="review_text">
+            Отличный фильм три часа пролетели незаметно
+          </div>
+          
+
+         </div>
+
+         <div class="send">
+
+          <form method="POST" action="#" id="review">
+
+            <input type="text" name="review_name" placeholder="Ваше имя">
+            <textarea name="review_text" ></textarea>
+            <input type="submit"  value="отправить">
+          </form>
+         </div>
+        
+    </div>
+
+      
+
+
+    </div>
+
+
+    <div class="footer">
+      <p>
+        <a href="#">Главная</a> |
+        <a href="#">Фильмы</a> |
+        <a href="#">Сериалы</a> |
+        <a href="#">Рейтинг фильмов</a> |
+        <a href="#">Контакты</a>
+      </p>
+      <p>wh-bd.com 2015</p>
+    </div>
+  </div>
+</body>
+</html>
