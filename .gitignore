@@ -6,3 +6,4 @@ sass/*.css
 #Так убираем папку целеком
 maket
 .git
+*/_sours
